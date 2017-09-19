@@ -9,7 +9,7 @@ interface AuthService {
 
 class LoginService : AuthService {
     private val CORRECT_LOGIN = "login"
-    private val CORRECT_PASSWORD = "password"
+    private val CORRECT_PASSWORD = "PassworD1"
 
     private val FAKE_REQUEST_DURATION_MILLIS: Long = 5000
     override fun login(login: String, password: String, loginServiceCallback: LoginServiceCallback) {
