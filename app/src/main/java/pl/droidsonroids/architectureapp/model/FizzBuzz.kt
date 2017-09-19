@@ -1,6 +1,6 @@
 package pl.droidsonroids.architectureapp.model
 
 class FizzBuzz {
-    fun number(): Int = 1
+    fun number(number: Int): Int = number
 
 }

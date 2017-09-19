@@ -15,8 +15,14 @@ class FizzBuzzTest {
 
     @Test
     fun isReturningOne() {
-        val number = fizzBuzz.number()
+        val number = fizzBuzz.number(1)
         assertEquals(1, number)
+    }
+
+    @Test
+    fun isReturningTwo() {
+        val number = fizzBuzz.number(2)
+        assertEquals(2, number)
     }
 }
 
