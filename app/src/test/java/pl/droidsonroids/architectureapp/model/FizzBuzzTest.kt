@@ -28,7 +28,7 @@ class FizzBuzzTest {
     @Test
     fun isReturningFuzzFor3() {
         val fuzz = fizzBuzz.number(3)
-        assertEquals(FUZZ, fuzz)
+        assertEquals(FIZZ, fuzz)
     }
 
     @Test
