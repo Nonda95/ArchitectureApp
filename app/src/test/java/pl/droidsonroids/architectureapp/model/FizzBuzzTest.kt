@@ -16,17 +16,17 @@ class FizzBuzzTest {
     @Test
     fun isReturningOne() {
         val number = fizzBuzz.number(1)
-        assertEquals(1, number)
+        assertEquals(1.toString(), number)
     }
 
     @Test
     fun isReturningTwo() {
         val number = fizzBuzz.number(2)
-        assertEquals(2, number)
+        assertEquals(2.toString(), number)
     }
 
     @Test
-    fun isReturningFuzz() {
+    fun isReturningFuzzFor3() {
         val fuzz = fizzBuzz.number(3)
         assertEquals("fuzz", fuzz)
     }
